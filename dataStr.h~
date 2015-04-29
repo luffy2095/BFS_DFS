@@ -1,0 +1,11 @@
+typedef struct links
+{
+int value;
+int weight; 
+struct links *par;
+struct links *next;
+}links;
+
+typedef links* arr;
+
+
